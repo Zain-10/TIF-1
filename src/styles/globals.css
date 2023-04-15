@@ -78,6 +78,10 @@
 .about-img{
   margin-left: 205px;
 }
+.about{
+  margin-left: 200px;
+  margin-right: 204px;
+}
 .about-us{
   font-family: 'Poppins';
   font-style: normal;
@@ -85,26 +89,23 @@
   font-size: 45px;
   line-height: 27px;
   color: #0E2368;
-  margin-left: 200px;
   margin-top: 107px;
 }
 .about-desc{
   margin-top: 27.41px;
-  margin-left: 200px;
-  margin-right: 204px;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 27px;
   color: #444957;
+  min-width: 447px;
 }
 .read-btn{
   width: 132px;
   height: 42px;
   background: #E23744;
   border-radius: 21px;
-  margin-left: 200px;
   margin-top: 22px;
 }
 
@@ -177,6 +178,65 @@
   margin-top: 64px;
 }
 
+.footer{
+  background: #F8F8F8;
+  height: 362px;
+  margin-top: 65px;
+}
+.footer-img{
+  padding-top: 123px;
+  margin-left: 103px;
+}
+.contact-us{
+  margin-top: 84px;
+  margin-left: 210px;
+}
+.contact{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.8433px;
+  color: #0E2368;
+}
+.address{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6559px;
+  color: #646874;
+  margin-top: 14px;
+}
+.morecont{
+  margin-top: 84px;
+  margin-left: 200px;
+}
+.more{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.8433px;
+  color: #0E2368;
+}
+.social{
+  margin-top: 84px;
+  margin-left: 250px;
+}
+.social-head{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  color: #0E2368;
+}
+.copy{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6559px;
+  color: #646874;
+  margin-top: 100px;
+  margin-left: -40px;
+}
 
 @media screen and (max-width:376px) {
   .main-container{
@@ -187,25 +247,31 @@
   .bus-img{
     visibility: hidden;
   }
-  
+
   .left-container{
-    
+   
   }
+  
   .head{
-    margin-left: 67px;
+    margin-left: 135px;
     margin-top: 75px;
     text-align: center;
   }
   .desc{
     text-align: center;
+    margin-left: 40px;
+    display: none;
+  }
+  .desccont{
+    margin-left: 30px;
   }
   .explore-btn{
-    margin-left: 127px;
-    margin-top: 16px;
+    margin-left: 170px;
+    margin-top: 50px;
   }
 
   .page2{   
-    width: 690px;
+    width: 730px;
     height: 516px;
     margin-left: 0px;
     margin-top: 64px;
@@ -214,17 +280,18 @@
     display: none;
   }
   .about-us{
-    margin-left: 260px;
+    margin-left: 90px;
   }
   .about-desc{
     margin-top: 21px;
+    margin-left: -50px;
     text-align: center;
   }
   .rbtn-cont{
-    margin-left: 74px;
+    margin-left: 100px;
   }
   .read-btn{
-    margin-top: 16px;
+    margin-top: 45px;
   }
 
   .articles{
@@ -232,7 +299,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
+    margin-left: 150px;
   }
   .head-latest{
     font-family: 'Poppins';
@@ -246,11 +313,12 @@
     margin-left: 28px;
     margin-top: 23px;
     width: 271px;
-    height: 500px;
+    height: 555px;
   }
   .article-img{
     width: 204px;
     height: 166px;
+    margin-left: 80px;
   }
   .headings{
     font-family: 'Poppins';
@@ -263,6 +331,29 @@
     margin-right: 50px;
   }
 
+  .arrows{
+    margin-left: 365px;
+  }
+
+  .footer{
+    height: 100%;
+    width: 730px;
+  }
+  .footer-img{
+    margin-left: 270px;
+  }
+  .contact-us{
+    margin-left: 110px;
+  }
+  .morecont{
+    margin-left: 110px;
+  }
   
+}
+
+@media screen and (max-width:767px) {
+  .about-img{
+    display: none;
+  }
 }
 
