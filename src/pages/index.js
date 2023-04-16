@@ -31,7 +31,7 @@ export default function Home() {
           <Image src={'/about.jpg'} width='384' height='468' className='about-img'/>
           <div className='about'>
             <div className='about-us'>About Us</div>
-            <div className='about-desc'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. t has survived not only five centuries.</div>
+            <div className='about-desc'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. t has survived not only five centuries.</div>
             <div className='rbtn-cont'><button className='read-btn'>Read More</button></div>
           </div>
         </div>
@@ -45,34 +45,34 @@ export default function Home() {
               <><div className='card'>
                 <Image src={'/article-4.png'} width='326' height='257' className='article-img' />
                 <div className='headings'>How To Grill Corn</div>
-                <div className='descriptions'>PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</div>
+                <div className='descriptions'>PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrs standard...</div>
                 <button className='article-btns'>Read More</button>
               </div><div className='card ml-12'>
                 <Image src={'/article-5.png'} width='326' height='257' className='article-img' />
                 <div className='headings'>Crunchwrap Supreme</div>
-                <div className='descriptions'>PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</div>
+                <div className='descriptions'>PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrs standard...</div>
                 <button className='article-btns'>Read More</button>
               </div><div className='card ml-12'>
                 <Image src={'/article-6.png'} width='326' height='257' className='article-img' />
                 <div className='headings'>Broccoli Cheese Soup</div>
-                <div className='descriptions'>PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</div>
+                <div className='descriptions'>PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrs standard...</div>
                 <button className='article-btns'>Read More</button>
               </div></>
               :
               <><div className='card'>
                 <Image src={'/article-1.png'} width='326' height='257' className='article-img' />
                 <div className='headings'>Grilled  Tomatoes at Home</div>
-                <div className='descriptions'>PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</div>
+                <div className='descriptions'>PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrs standard...</div>
                 <button className='article-btns'>Read More</button>
               </div><div className='card ml-12'>
                   <Image src={'/article-2.png'} width='326' height='257' className='article-img' />
                   <div className='headings'>Snacks for Travel</div>
-                  <div className='descriptions'>PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</div>
+                  <div className='descriptions'>PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrs standard...</div>
                   <button className='article-btns'>Read More</button>
                 </div><div className='card ml-12'>
                   <Image src={'/article-3.png'} width='326' height='257' className='article-img' />
                   <div className='headings'>Post-workout Recipes</div>
-                  <div className='descriptions'>PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</div>
+                  <div className='descriptions'>PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrs standard...</div>
                   <button className='article-btns'>Read More</button>
                 </div></> 
               }
